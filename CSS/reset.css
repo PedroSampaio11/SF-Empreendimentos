@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button, input, select, textarea {
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+blockquote {
+    quotes: none;
+}
+blockquote::before, blockquote::after {
+    content: '';
+}
