@@ -22,7 +22,7 @@ button{
 #navbar{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100px;
 }
 ul{
@@ -33,11 +33,11 @@ ul{
   font-size: 1.2rem;
   gap: 20px;
 }
-a{
+.a_nav{
   text-decoration: none;
   transition: all 0.3s ease;
 }
-a:hover {
+.a_nav:hover {
   opacity: .8;
   border-bottom: 2px solid #00803A;
 }
